@@ -1,0 +1,214 @@
+
+  body {
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+  }
+.subtitle-Text{
+  line-height: 0px;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(187, 159, 0);
+  font-family: "Times New Roman", Times, serif;
+  text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+}
+.gametitle-Text{
+  line-height: 0px;
+  text-align: center;
+  font-size: 49px;
+  color: rgb(187, 159, 0);
+  font-family: "Times New Roman", Times, serif;
+  text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+}
+.game-infomation-text{
+  line-height: auto;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(187, 159, 0);
+  font-family: "Times New Roman", Times, serif;
+  text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+}
+.URLText{
+  line-height: auto;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(187, 159, 0);
+  font-family: "Times New Roman", Times, serif;
+  text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+}
+.normalText{
+  line-height: 0px;
+  text-align: left;
+  font-size: 30px;
+  color: rgb(187, 159, 0);
+  font-family: "Times New Roman", Times, serif;
+}
+.section-interval{
+  line-height: 00px;
+  text-align: center;
+}
+.Warpflex{
+  display: flex;
+  top: 0;
+  position: fixed;
+  z-index: 100;
+}
+.Warptext{
+  transform: translate(0px,-70px);
+  font-size: 150%;
+  text-align: center;
+  color: rgb(187, 159, 0);
+  font-family: "Times New Roman", Times, serif;
+}
+.Warpbutton{
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+.noneline{
+  text-decoration: none;
+}
+.center{
+  position: center;
+}
+.TeamProductionList{
+  margin: auto;
+  display: block;  
+  table-layout: fixed;
+  text-align: center;
+}
+.TeamProduction{
+  margin: auto;
+  background-image: url(Image/自分のデスクトップ背景.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+  border: 20px solid #111111;
+  border-collapse: collapse;
+  width: 800px;
+  height: 800px;
+  
+}
+.GameExplanation{
+  padding: 2em 2em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 100px #ffffff;
+margin-right: auto;
+margin-left: auto;
+background-color: #5b37af;
+border: 100px;
+
+line-height: auto;
+text-align: center;
+font-size: 40px;
+color: rgb(187, 159, 0);
+font-family: "Times New Roman", Times, serif;
+}
+  /*＝＝＝＝＝これより下は画像関係＝＝＝＝＝*/
+  
+  .footerbackground
+  {
+    position: center;
+    width: 1300px;
+    height: auto;
+  }
+  .GameSection{
+    float: left;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+  }
+  .left{
+    float: left;
+  }
+  .GameSectionPanel
+{
+  transform: translate(0,-20px);
+  display: block;
+  width: 100px;
+  position: absolute;
+  z-index: -10;
+}
+  .loopbackground
+  {
+    display: block;
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+    flex-direction: column;
+    z-index: -100;
+  }
+  .gameimage{
+    text-align: center;
+    width: 70%;
+  }
+  .flex-image{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    background-color: #3e3e3e;
+    scrollbar-color: rgb(250, 0, 0);
+  }
+  .flex-skill-image{
+    text-align:center;
+    background-color: #3e3e3e;
+
+    height: 400px;
+  }
+  .imagematerials{
+    width: 200px;
+    height: 200px;
+  }
+  .GearRotate
+  {
+    width: 20%;
+    animation: rotate_anime 10s linear infinite;
+  }
+@keyframes rotate_anime {
+  0% {transform:rotate(0deg);}
+  100% {transform:rotate(360deg);}
+}
+
+/*＝＝＝＝＝これより下は3Dモデル関係＝＝＝＝＝*/
+
+model-viewer#reveal {--poster-color: transparent;}
+.model-view-oblong {
+  width: 200px;
+  height: 400px;
+  background-color: #3e3e3e;
+}
+.flex-Lineups {
+  display: flex;
+  flex-wrap: wrap;
+ }
+ /*＝＝＝＝＝これより下は動画関係＝＝＝＝＝*/
+ .videoSize {
+    width: 600px;
+    height: auto;
+    display: center;
+  }
+ /*
+   .model{background-size: 10%;}
+  .Title {position: relative;}
+  .Titleimg {width: 100%;}
+
+      <div>
+        <img class="GearRotate" src="Image/MainGear.png">
+    </div>
+ */

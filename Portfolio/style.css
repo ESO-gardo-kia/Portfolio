@@ -1,7 +1,10 @@
 
   body {
     background-color: rgb(34, 34, 34);
+  }
+  table{
     text-align: center;
+    margin: auto;
   }
 .subtitle-Text{
   line-height: 0px;
@@ -30,7 +33,7 @@
 .game-infomation-text{
   line-height: auto;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: rgb(187, 159, 0);
   font-family: "Times New Roman", Times, serif;
   text-shadow:
@@ -94,7 +97,7 @@
 }
 .TeamProduction{
   margin: auto;
-  background-image: url(Image/自分のデスクトップ背景.png);
+  background-image: url(Image/.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: auto;
